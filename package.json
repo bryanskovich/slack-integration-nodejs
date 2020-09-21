@@ -1,0 +1,26 @@
+{
+  "name": "slack-integration-nodejs",
+  "version": "1.0.0",
+  "description": "Add slack webhook to your node js app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanskovich/slack-integration-nodejs.git"
+  },
+  "author": "Bryanskovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanskovich/slack-integration-nodejs/issues"
+  },
+  "homepage": "https://github.com/bryanskovich/slack-integration-nodejs#readme",
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
